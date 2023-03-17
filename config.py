@@ -7,9 +7,9 @@ load_dotenv()
 
 
 # Mandatory variables for the bot to start
-API_ID = int(os.getenv("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+API_ID = int(os.getenv("API_ID", "25401847"))
+API_HASH = os.environ.get("API_HASH", "ca8a79df8704ed676fca6891b7bc08ce")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6098282634:AAGjOlu18wC7rXQyM_9sm7RnqKrklzs_l2c")
 ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("5989342270")] if os.environ.get("ADMINS") else []
 ADMIN = ADMINS
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "urlshortnerbo")
@@ -25,7 +25,7 @@ LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001963546070"))
 UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "MoneyCaselinkupdate")
 
 # true if forward should be avoided
-BROADCAST_AS_COPY = os.environ.get('BROADCAST_AS_COPY', "True")
+BROADCAST_AS_COPY = os.environ.get('BROADCAST_AS_COPY', "False")
 
 # image when someone hit /start
 WELCOME_IMAGE = os.environ.get("https://telegra.ph/file/81b13b6b326660dd49262.jpg", '')
