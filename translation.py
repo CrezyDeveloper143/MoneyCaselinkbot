@@ -18,7 +18,7 @@ Other Ways 👇
 /api <space> API Key 
 (See Example.👇)
 **Example:**
- `/api 9c5a6c96077a1b499d8f953331221159383eb434 `
+ `/api d67a800b4f2e182cf1430a1b0409a61a84024ace `
 
 **🤘 Hit** 👉 /features To Know More Features Of This Bot.
 **💁‍♀️ Hit** 👉 /help To Get Help.
@@ -40,7 +40,7 @@ HELP_MESSAGE = '''**{},**
 
 🗣️   𝐄𝐱𝐚𝐦𝐩𝐥𝐞:
 
-`/api 9c5a6c96077a1b499d8f953331221159383eb434 `
+`/api d67a800b4f2e182cf1430a1b0409a61a84024ace `
 
 
 🗣️  /features  ᴛᴏ  ᴋɴᴏᴡ  ᴍᴏʀᴇ  ꜰᴇᴀᴛᴜʀᴇꜱ  ᴏꜰ  ᴛʜɪꜱ  ʙᴏᴛ.
@@ -117,7 +117,7 @@ BACK_REPLY_MARKUP = InlineKeyboardMarkup([
 ])
 
 USER_ABOUT_MESSAGE = """
-- Website: [{base_site}](https://omegalinks.in/ref/devil)
+- Website: [{base_site}](https://moneycase.link/ref/CrezyDeveloper01)
 
 - Site Link:
  {base_site}
@@ -142,9 +142,9 @@ USER_ABOUT_MESSAGE = """
 SHORTENER_API_MESSAGE = """To add or update your Shortner Website API, 
 `/api [api]`
             
-Ex: `/api 9c5a6c96077a1b499d8f953331221159383eb434 `
+Ex: `/api d67a800b4f2e182cf1430a1b0409a61a84024ace `
 
-Get API From [{base_site}](https://omegalinks.in/ref/devil)
+Get API From [{base_site}](https://moneycase.link/ref/CrezyDeveloper01)
 
 Current: {base_site} 
 API: `{shortener_api}`"""
