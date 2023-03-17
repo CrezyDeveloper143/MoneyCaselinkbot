@@ -7,9 +7,9 @@ load_dotenv()
 
 
 # Mandatory variables for the bot to start
-API_ID = int(os.getenv("API_ID", "Your Api Id"))
-API_HASH = os.environ.get("API_HASH", "Your Api Hash")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "Bot Token")
+API_ID = int(os.getenv("API_ID", "5989342270"))
+API_HASH = os.environ.get("API_HASH", "d67a800b4f2e182cf1430a1b0409a61a84024ace")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6098282634:AAE_y7lPZRWDxTwUBRKShbMnWm4C5etj7HQ")
 ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("5989342270")] if os.environ.get("ADMINS") else []
 ADMIN = ADMINS
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "urlshortnerbo")
