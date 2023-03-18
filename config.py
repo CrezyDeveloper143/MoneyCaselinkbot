@@ -28,5 +28,5 @@ UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "MoneyCaselinkupdate")
 BROADCAST_AS_COPY = os.environ.get('BROADCAST_AS_COPY', "False")
 
 # image when someone hit /start
-WELCOME_IMAGE = os.environ.get("https://telegra.ph/file/81b13b6b326660dd49262.jpg", '')
+WELCOME_IMAGE = os.environ.get("Welcome_image", 'https://telegra.ph/file/81b13b6b326660dd49262.jpg')
 LINK_BYPASS = "False"
