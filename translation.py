@@ -3,14 +3,14 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
 START_MESSAGE = '''**{},
-I am MoneyCase link Converter Bot. I Can Convert Links Directly From Your MoneyCase.link Account,
+I am jblink.live link Converter Bot. I Can Convert Links Directly From Your jblink.live Account,
     
-Go To** 👉 https://MoneyCase.link/member/tools/api?connect=true
+Go To** 👉 https://jblink.live/member/tools/api?connect=true
 **🤗 Than Hit Start If You're Redirected To Bot.**
 
 Other Ways 👇
 
-1. **Go To** 👉 https://MoneyCase.link/member/tools/api
+1. **Go To** 👉 https://jblink.live/member/tools/api
 2. **Than Copy** API Key
 3. **Than Type** `/api` than give a single space and than paste your API Key
 **(see example to understand more...)**
@@ -25,13 +25,13 @@ Other Ways 👇
 **➕ Hit** 👉 /channel To Get Help About Adding your channel to bot.
 **➕ Hit** 👉 /footer To Get Help About Adding your Custom Footer to bot.
 
-If You are new toMoneyCase link then click on below button to create your account.'''
+If You are new to jblink.live link then click on below button to create your account.'''
 
 HELP_MESSAGE = '''**{},**
 
 ɪ  ᴄᴀɴ  ᴄᴏɴᴠᴇʀᴛ  ᴀɴʏ  ᴅɪʀᴇᴄᴛ  ʟɪɴᴋ  ɪɴᴛᴏ  ʏᴏᴜʀ  ᴜʀʟ  ꜱʜᴏʀᴛᴇʀɴ  ʟɪɴᴋꜱ.
     
-𝟏.  ɢᴏ  ᴛᴏ  👉  https://MoneyCase.link/member/tools/api
+𝟏.  ɢᴏ  ᴛᴏ  👉  https://jblink.live/member/tools/api
   
 𝟐.  ᴛʜᴀɴ  ᴄᴏᴘʏ  **ᴀᴘɪ  ᴋᴇʏ**
 
@@ -48,13 +48,13 @@ HELP_MESSAGE = '''**{},**
 𝐍𝐎𝐓𝐄 :  ꜰᴏʀ  ᴅᴇᴛᴀɪʟꜱ 👇 👇'''
 
 ABOUT_TEXT = '''**
-I am MoneyCase link Converter Bot. I Can Convert Links Directly From Your MoneyCase.link Account,**
+I am jblink.live link Converter Bot. I Can Convert Links Directly From Your jblink.live Account,**
 
 **⚡Features⚡**
 
-**• I can Convert any links or posts to your MoneyCaselink link / post. (Button Links Posts, Hidden links/Hyperlinks All Are Supported)**
+**• I can Convert any links or posts to your jblink.live link / post. (Button Links Posts, Hidden links/Hyperlinks All Are Supported)**
 
-**• I can Convert unlimited MoneyCase.link links at once.** (if you are sending a list of urls.)
+**• I can Convert unlimited jblink.live links at once.** (if you are sending a list of urls.)
 
 **• No need to share password or email to convert links.**
 
@@ -66,7 +66,7 @@ I am MoneyCase link Converter Bot. I Can Convert Links Directly From Your MoneyC
 
 **• I Can Automatically Replace Your Banner Image To images in the post. Hit  👉/Banner_image To Know More...**
 
- Anyone who want to use any **other shortner** instead of MoneyCaselink than **contact to owner** (all **shortners support** available.)'''
+ Anyone who want to use any **other shortner** instead of jblink.live than **contact to owner** (all **shortners support** available.)'''
 
 CUSTOM_ALIAS_MESSAGE = """For Custom Alias, `[link] | [custom_alias]`, Send in this format
 
@@ -103,7 +103,7 @@ HELP_REPLY_MARKUP = InlineKeyboardMarkup([
 
 START_MESSAGE_REPLY_MARKUP  = InlineKeyboardMarkup([
     [
-        InlineKeyboardButton('🪄  Connect  To  MoneyCase link  ⚙️', url=f'https://MoneyCase.link/ref/crezydeveloper01')
+        InlineKeyboardButton('🪄  Connect  To  MoneyCase link  ⚙️', url=f'https://jblink.live/ref/Crezydeveloper')
     ]
 ])
 
@@ -117,7 +117,7 @@ BACK_REPLY_MARKUP = InlineKeyboardMarkup([
 ])
 
 USER_ABOUT_MESSAGE = """
-- Website: [{base_site}](https://moneycase.link/ref/CrezyDeveloper01)
+- Website: [{base_site}](https://jblink.live/ref/CrezyDeveloper)
 
 - Site Link:
  {base_site}
@@ -144,7 +144,7 @@ SHORTENER_API_MESSAGE = """To add or update your Shortner Website API,
             
 Ex: `/api d67a800b4f2e182cf1430a1b0409a61a84024ace `
 
-Get API From [{base_site}](https://moneycase.link/ref/CrezyDeveloper01)
+Get API From [{base_site}](https://jblink.live/ref/CrezyDeveloper)
 
 Current: {base_site} 
 API: `{shortener_api}`"""
