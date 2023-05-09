@@ -22,7 +22,7 @@ ADMINS.append(5989342270)
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001963546070")) 
 
 # For Force Subscription
-UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "MoneyCaselinkupdate")
+UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
 
 # true if forward should be avoided
 BROADCAST_AS_COPY = os.environ.get('BROADCAST_AS_COPY', "False")
