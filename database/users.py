@@ -20,7 +20,7 @@ async def get_user(user_id):
             "header_text": "",
             "footer_text": "",
             "username": None,
-            "base_site": "MoneyCase.link",
+            "base_site": "jblink.live",
             "banner_image": None,
             "is_banner_image": True,
             "is_username": True,
